@@ -55,7 +55,7 @@ import {Home} from './home/home';
     </main>
 
     <footer>
-      WebPack Angular 2 Starter by <a [href]="url">@AngularClass</a>
+      RamDam application by <a [href]="url">@RamDam</a>
       <div>
         <img [src]="angularclassLogo" width="10%">
       </div>
@@ -71,8 +71,8 @@ import {Home} from './home/home';
 ])
 export class App {
   angularclassLogo = 'assets/img/angularclass-avatar.png';
-  name = 'Angular 2 Webpack Starter';
-  url = 'https://twitter.com/AngularClass';
+  name = 'RamDam';
+  url = 'https://twitter.com/RamDam';
   constructor() {
 
   }
